@@ -1,0 +1,34 @@
+
+:root {
+    --malibu: #83d0f2;
+    --gray-900: #333333;
+    --white: #ffffff;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    background: url('./img/hero-dino.6c51deebd4af.png') no-repeat  var(--malibu) center 22px;
+    flex-direction: column;
+}
+
+.header-title {
+    align-self: center;
+    background-color: var(--gray-900);
+    color: var(--white);
+    font-weight: 400;
+    font-size: 37px;
+    padding: 3px 4px;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.header-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
