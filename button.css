@@ -1,0 +1,37 @@
+
+:root {
+    --gray-900: #333333;
+}
+
+.header-buttons-wrapper {
+    position: relative;
+    height: 30px;
+    border-bottom: 2px solid var(--gray-900);
+    text-decoration: none;
+    margin-right: 39px;
+}
+
+.header-buttons-wrapper
+.header-buttons-wrapper--text {
+    padding-right: 7rem;
+}
+
+.navigation-button {
+    color: var(--gray-900);
+    font-size: 16px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.navigation-button:hover
+.icon-arrow {
+    right: -7px; 
+}
+
+.icon-arrow {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: -2px;
+}
