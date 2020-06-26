@@ -1,3 +1,41 @@
-* {
-    margin: 0;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+::placeholder {
+  color: var(--dusty-gray);
+  font-size: 15px;
+}
+
+:-ms-input-placeholder {
+  color: var(--dusty-gray);
+  font-size: 15px;
+}
+
+::-ms-input-placeholder {
+  color: var(--dusty-gray);
+  font-size: 15px;
+}
+
+a:link {
+  color: #333333;
+  font-size: 16px;
+}
+
+a:link:hover {
+  text-decoration: none;
 }
