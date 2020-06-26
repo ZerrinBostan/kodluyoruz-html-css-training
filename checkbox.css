@@ -1,0 +1,13 @@
+.checkmark {
+  font-size: 1.6rem;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+.checkbox-container {
+  line-height: 25px;
+}
+
+.checkbox-container > .checkbox-input {
+  cursor: pointer;
+}
