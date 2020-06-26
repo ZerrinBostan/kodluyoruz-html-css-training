@@ -1,37 +1,89 @@
-
-:root {
-    --gray-900: #333333;
+ :root {
+  --gray-900: #333333;
+  --dusty-gray: #9b9b9b;
+  --calypso: #3d7e9a;
+  --calypso-dark: #285c76;
+  --white: #ffffff;
 }
+
 
 .header-buttons-wrapper {
-    position: relative;
-    height: 30px;
-    border-bottom: 2px solid var(--gray-900);
-    text-decoration: none;
-    margin-right: 39px;
+  position: relative;
+  height: 3rem;
+  border-bottom: 0.2rem solid var(--gray-900);
+  text-decoration: none;
+  margin-right: 3.9rem;
+  padding-bottom: 1rem;
 }
+
 
 .header-buttons-wrapper
 .header-buttons-wrapper--text {
-    padding-right: 7rem;
+  padding-right: 7rem;
+}
+
+.header-buttons-wrapper--text {
+  font-size: 16px;
 }
 
 .navigation-button {
-    color: var(--gray-900);
-    font-size: 16px;
-    cursor: pointer;
-    padding-bottom: 10px;
-    text-decoration: none;
+  color: var(--gray-900);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  cursor: pointer;
+  padding-bottom: 10px;
+  text-decoration: none;
 }
 
-.navigation-button:hover
-.icon-arrow {
-    right: -7px; 
+.navigation-button .icon-arrow {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: -2px;
+  top: 9px;
+}
+.navigation-button:hover .icon-arrow {
+  right: -7px;
 }
 
-.icon-arrow {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    right: -2px;
+
+.button-wrapper  .icon-arrow {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 10px;
+}
+
+.button-wrapper:hover .icon-arrow {
+  right: 7px;
+} 
+
+.register-item {
+  display: flex;
+  flex-direction: column;
+  width: 259.55px;
+  padding-right: 6rem;
+  padding-left: 4rem;
+}
+
+.register-item > .register-item--input {
+  padding: 10px 8px 12px 8px;
+  border: 0.2rem solid var(--dusty-gray);
+  font-size: 16px;
+  width: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.button-wrapper {
+  position: relative;
+  background-color: var(--white);
+  border: 0.2rem solid var(--calypso);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--calypso-dark);
+  padding: 10px 8px 12px 8px;
+  cursor: pointer;
+  text-align: start;
+  margin-bottom: 20px;
 }
